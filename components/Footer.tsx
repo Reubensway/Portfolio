@@ -32,7 +32,7 @@ const Footer: React.FC<{}> = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" className="relative z-[2]">
       <div className="container mx-auto 2xl px-6 pt-[50px] pb-8">
         <div className="max-w-[700px] mx-auto">
           <h2 className="text-white font-semibold text-4xl mb-4">Get in touch</h2>

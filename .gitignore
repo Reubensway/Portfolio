@@ -29,9 +29,14 @@ yarn-error.log*
 .env
 .env*.local
 
+# kiro steering
+.kiro/steering/
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vscode/
