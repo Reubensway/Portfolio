@@ -8,7 +8,7 @@ const About: React.FC<{}> = () => {
       style={{ transform: "scale(0.9" }}
     >
       <div className="flex flex-col  justify-around flex-wrap items-center   max-w-[900px]">
-        <h1 className="text-white font-semibold text-6xl">ABOUT ME</h1>
+        <h1 className="text-white font-semibold text-6xl">ABOUT ME</h1><br />
        
         <p className="text-gray-300 text-center ">
           As a passionate Frontend engineer, I thrive on the intricate dance
