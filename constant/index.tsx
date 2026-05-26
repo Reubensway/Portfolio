@@ -1,22 +1,18 @@
 export const Social_Icons = [
   {
-    link: "https://github.com/ibrahimmemonn",
+    link: "https://github.com/Reubensway",
     image: "/Github.svg",
-    alt: "Ibrahim Memon - Social Media",
+    alt: "Reuben - Social Media",
   },
   {
-    link: "https://www.instagram.com/ibii.memon/?hl=en",
+    link: "https://www.instagram.com/reubensway/",
     image: "/Instagram.svg",
     alt: "Ibrahim Memon - Social Media",
   },
   {
-    link: "https://www.linkedin.com/in/ibrahimmemonn/",
+    link: "https://www.linkedin.com/in/reubenirantiola/",
     image: "/LinkedIn.svg",
     alt: "Ibrahim Memon - Social Media",
   },
-  {
-    link: "https://twitter.com/Ibrahimmemonnn",
-    image: "/Twitter.svg",
-    alt: "Ibrahim Memon - Social Media",
-  },
+  
 ];

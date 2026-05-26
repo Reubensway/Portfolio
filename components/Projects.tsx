@@ -12,94 +12,92 @@ const Projects: React.FC<{}> = () => {
         EXPLORE NOW
       </p>
       <div className=" container mx-auto 2xl  ">
-        <div className="flex-col flex md:flex-row  mt-7">
+        <div className="flex-col flex md:flex-row mt-7">
           <Link
-            href="https://web.hr/"
+            href="https://villagesquare.io/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]"
+            className="z-[1] md:w-1/2"
           >
             <div className="flex-row flex mb-5">
               <Image
                 src="/FirstProject.png"
                 height={150}
                 width={150}
-                alt="Ibrahim Memon - UX Design Project"
+                alt="VillageSquare Project"
               />
               <div className="p-3">
-                <p className="text-white font-semibold text-xl">WebHR</p>
+                <p className="text-white font-semibold text-xl">VillageSquare</p>
                 <p className="text-gray-500 text-[10px]">
-                  Designed a modern UI website comprising more than 50 screens,
-                  along with the integration of a blog using Next.js.
+                  I developed a social media web Application using React.js.
                 </p>
               </div>
             </div>
           </Link>
+
           <Link
-            href="https://hireside.com/"
+            href="https://Runoma.com.ng"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]"
+            className="z-[1] md:w-1/2"
           >
             <div className="flex-row flex mb-5">
               <Image
                 src="/SecondProject.png"
                 height={150}
                 width={150}
-                alt="Ibrahim Memon - UX Design Project"
+                alt="Runoma Project"
               />
               <div className="p-3">
-                <p className="text-white font-semibold text-xl">HireSide</p>
+                <p className="text-white font-semibold text-xl">Runoma</p>
                 <p className="text-gray-500 text-[10px]">
-                  Developed a web application on Next.js that allows users to
-                  apply for jobs, create job posts, and manage their company
-                  profiles.
+                  I Designed and developed Runoma&apos;s website
                 </p>
               </div>
             </div>
           </Link>
         </div>
-        <div className="flex-col flex md:flex-row ">
+        <div className="flex-col flex md:flex-row">
           <Link
-            href="https://www.vergesystems.com/"
+            href="https://www.imcgungahlin.com.au/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]"
+            className="z-[1] md:w-1/2"
           >
             <div className="flex-row flex mb-5">
               <Image
                 src="/ThirdProject.png"
                 height={150}
                 width={150}
-                alt="Ibrahim Memon - UX Design Project"
+                alt="IMC Project"
               />
-              <div className=" p-3 ">
+              <div className="p-3">
                 <p className="text-white font-semibold text-xl">
-                  Verge Systems
+                  IMC
                 </p>
                 <p className="text-gray-500 text-[10px]">
-                  Developed the Verge Systems website using React.js.
+                  Designed and Developed a clinic website using React.js.
                 </p>
               </div>
             </div>
           </Link>
           <Link
-            href="http://44.201.47.75/"
+            href="https://naija-style.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
-            className="z-[1]"
+            className="z-[1] md:w-1/2"
           >
             <div className="flex-row flex mb-5">
               <Image
                 src="/FourProject.png"
                 height={150}
                 width={150}
-                alt="Ibrahim Memon - UX Design Project"
+                alt="NaijaStyle Project"
               />
-              <div className="p-3 ">
-                <p className="text-white font-semibold text-xl">Payoasis</p>
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">NaijaStyle</p>
                 <p className="text-gray-500 text-[10px]">
-                  Designed the modern UI for a banking website utilizing Gatsby.
+                  Designed and developed a modern E-commerce website.
                 </p>
               </div>
             </div>

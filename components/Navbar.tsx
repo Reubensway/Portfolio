@@ -1,35 +1,36 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Social_Icons } from "@/constant";
 
 const Navbar: React.FC<{}> = () => {
   return (
-    <div className="w-full h-[65px] bg-['#111'] fixed backdrop-blur-sm z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-        <a
-          title="ibrahim logo"
-          href="/"
-          className="h-auto w-auto flex flex-row items-center"
-        >
-          <Image
-            src="/Logo.svg"
-            alt="Ibrahim Memon - Developer"
-            width={100}
-            height={100}
-            sizes="100vw"
-            className="w-full h-auto"
-          />
-        </a>
-
-        <div className="flex flex-row gap-5">
-          <div
-            onClick={() => window.open("mailto:ibrahimmemon930@gmail.com")}
-            className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5"
+    <div className="w-full fixed z-50 flex justify-center pt-5">
+      <div className="flex flex-row items-center gap-5 border border-gray-700 rounded-full px-6 py-3 backdrop-blur-sm bg-[#111]/80">
+        {Social_Icons.map((social) => (
+          <Link
+            href={social.link}
+            rel="noopener noreferrer"
+            target="_blank"
+            key={social.alt}
+            className="z-[1]"
           >
-            Contact
-          </div>
-        </div>
+            <Image
+              src={social.image}
+              height={22}
+              width={22}
+              alt={social.alt}
+            />
+          </Link>
+        ))}
+        <a
+          href="#contact"
+          className="z-[1] cursor-pointer bg-white hover:bg-gray-200 rounded-full text-black font-semibold py-2 px-5"
+        >
+          Contact
+        </a>
       </div>
     </div>
   );
