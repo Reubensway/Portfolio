@@ -18,7 +18,7 @@ const Experience: React.FC<{}> = () => {
               alt="Runoma"
             />
             <p className="text-gray-300 ">
-              <span className="font-semibold">Runoma /</span> Software Engineer
+              <span className="font-semibold">Runoma /</span> Frontend Engineer
             </p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-3">

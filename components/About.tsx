@@ -11,7 +11,7 @@ const About: React.FC<{}> = () => {
         <h1 className="text-white font-semibold text-6xl">ABOUT ME</h1>
        
         <p className="text-gray-300 text-center ">
-          As a passionate software engineer, I thrive on the intricate dance
+          As a passionate Frontend engineer, I thrive on the intricate dance
           between logic and creativity. Currently immersed in the dynamic world
           of engineering, my expertise centers around Frontend engineering, where I seamlessly
           blend technology with innovation.
