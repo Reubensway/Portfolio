@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import type SMTPTransport from "nodemailer/lib/smtp-transport";
 
 export async function POST(req: Request) {
   try {
@@ -12,16 +13,17 @@ export async function POST(req: Request) {
       );
     }
 
-    const transporter = nodemailer.createTransport({
+    const transportOptions: SMTPTransport.Options = {
       host: "smtp.gmail.com",
       port: 587,
       secure: false,
-      family: 4,
       auth: {
         user: process.env.SMTP_EMAIL,
         pass: process.env.SMTP_PASSWORD,
       },
-    });
+    };
+
+    const transporter = nodemailer.createTransport(transportOptions);
 
     await transporter.sendMail({
       from: process.env.SMTP_EMAIL,
