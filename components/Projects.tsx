@@ -57,6 +57,59 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
         </div>
+
+                <div className="flex-col flex md:flex-row">
+
+         <Link
+            href="https://https://newswings.com.ng/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1] md:w-1/2"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/Newswings.png"
+                height={150}
+                width={150}
+                alt="Newswings Project"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">NewsWings</p>
+                <p className="text-gray-500 text-[10px]">
+                  I Designed and developed NewsWing&apos;s website
+                </p>
+              </div>
+            </div>
+          </Link>
+        
+
+         <Link
+            href="https://https://https://peodavies.com.ng/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1] md:w-1/2"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/Peodavies.png"
+                height={150}
+                width={150}
+                alt="Newswings Project"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">PeoDavies</p>
+                <p className="text-gray-500 text-[10px]">
+                  I Designed and developed Peodavie&apos;s website
+                </p>
+              </div>
+            </div>
+          </Link>
+        </div>
+        
+
+
+
+      
         <div className="flex-col flex md:flex-row">
           <Link
             href="https://www.imcgungahlin.com.au/"
