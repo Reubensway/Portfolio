@@ -61,7 +61,7 @@ const Projects: React.FC<{}> = () => {
                 <div className="flex-col flex md:flex-row">
 
          <Link
-            href="https://https://newswings.com.ng/"
+            href="https://newswings.com.ng/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] md:w-1/2"
@@ -84,7 +84,7 @@ const Projects: React.FC<{}> = () => {
         
 
          <Link
-            href="https://https://https://peodavies.com.ng/"
+            href="https://peodavies.com.ng/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] md:w-1/2"
