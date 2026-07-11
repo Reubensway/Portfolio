@@ -112,7 +112,7 @@ const Projects: React.FC<{}> = () => {
       
         <div className="flex-col flex md:flex-row">
           <Link
-            href="https://www.imcgungahlin.com.au/"
+            href="https://the-ember-grill-tan.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] md:w-1/2"
@@ -126,10 +126,10 @@ const Projects: React.FC<{}> = () => {
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">
-                  IMC
+                 The Ember Grill
                 </p>
                 <p className="text-gray-500 text-[10px]">
-                  Designed and Developed a clinic website using React.js.
+                  Designed and Developed a food ordering website using React.js.
                 </p>
               </div>
             </div>
