@@ -84,22 +84,22 @@ const Projects: React.FC<{}> = () => {
         
 
          <Link
-            href="https://peodavies.com.ng/"
+            href="https://kidney-detection-app.vercel.app/dashboard"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1] md:w-1/2"
           >
             <div className="flex-row flex mb-5">
               <Image
-                src="/Peodavies.png"
+                src="/KidneyCare.png"
                 height={150}
                 width={150}
-                alt="Newswings Project"
+                alt="Kidneycare Project"
               />
               <div className="p-3">
-                <p className="text-white font-semibold text-xl">PeoDavies</p>
+                <p className="text-white font-semibold text-xl">KidneyCare</p>
                 <p className="text-gray-500 text-[10px]">
-                  I Designed and developed Peodavie&apos;s website
+                  I built and developed Kidneycare&apos;s  website
                 </p>
               </div>
             </div>
